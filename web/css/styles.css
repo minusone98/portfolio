@@ -1,0 +1,22 @@
+:root{
+    --negro: #0c0a0a;
+    --blanco: #f0f0f0;
+    --bg-color:#081b29;
+    --second-bg-color:#112e42;
+    --text-color:#ededed;
+    --main-color:#00abf0;
+    /* Tipografía */
+    --tipo-principal: 'Montserrat', sans-serif;
+    --tipo-secundaria: Verdana;
+}
+
+html{
+    overflow-x: hidden;
+}
+.body{
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: var(--tipo-principal);
+    background: var(--bg-color);
+    color: var(--text-color);
+}
