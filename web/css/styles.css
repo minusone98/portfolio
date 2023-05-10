@@ -79,7 +79,7 @@ section{
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('/web/img/215.jpg') no-repeat;
+    background: url('/web/img/115.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 
@@ -586,3 +586,5 @@ span{
     font-size: 2.4rem;
     color: var(--bg-color);
 }
+
+
