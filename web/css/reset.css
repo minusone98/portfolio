@@ -108,8 +108,6 @@ form, input, textarea, select, button, label {
       -ms-hyphens: auto;
           hyphens: auto;
   background-color: transparent;
-  color: inherit;
-  display: block;
   /* opcional */
   -webkit-appearance: none;
      -moz-appearance: none;
