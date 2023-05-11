@@ -1,38 +1,40 @@
-.circle{
-    margin-top: 2em;
-    margin-left: 2em;
-    width: 6em;
-    height: 6em;
-    background: rgb(38, 84, 233);
-    border-radius: 50%;
 
-    /* animation */
-
-    /* animation-name: cambiarColor;
-    animation-duration: 3s;
-    animation-iteration-count: infinite; /*cantidad de veces que se repite*/
-    /*animation-direction: normal; dice en que direccion comienza la animacion
-    define que sucede antes y despues de ser ejecutada la animacion, 
-    (si los estilos de la animacion permaneceran o se cambiaran)[forwards, 
-    los estilos se quedan con la posicion final] [backwards = define los estilos de la 
-    animacion antes de que la animacion comience. 
-    Para q backwards funcione se debe utilizar un animation delay.][both = tiene un comportamiento = a backwards y forwards]*/
-    /* animation-fill-mode: ;  */
-    animation-timing-function: ease-in-out; */
-
- 
+.container{
+    background: firebrick;
 }
+
+.caja{
+    width: 5em;
+    height: 5em;
+    border: .3em solid black;
+}
+
+.caja .nro1{
+    background: yellow;
+}
+
+.caja .nro2{
+
+}
+
+.caja .nro3{
+
+}
+
+.caja .nro4{
+
+}
+
+.caja .nro5{
+
+}
+
 /*keywords from - to // 0% - 100%*/
-@keyframes cambiarColor{
+@keyframes moverse{
     0%{
         transform: translateX(0%);
     }
- 
-    50%{
-        transform: translateY(42%);
-    }
-
     100%{
-        transform: translateX(100%);
+        transform: translateY(300%);
     }
 }

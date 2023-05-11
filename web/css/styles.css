@@ -6,12 +6,10 @@
     --second-bg-color:#112e42;
     --text-color:#ededed;
     --main-color:#00abf0;
-
     /* Tipografía */
     --tipo-principal: 'Montserrat', sans-serif;
     --tipo-secundaria: Verdana;
 }
-
 html{
     overflow-x: hidden;
 }
@@ -480,7 +478,7 @@ span{
     padding-bottom: 7rem;
 }
 .contact form{
-    max-width: 70rem;
+    max-width: 50rem;
     margin: 0 auto;
     text-align: center;
 }
