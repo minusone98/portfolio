@@ -19,7 +19,7 @@
     <title>Containers Ya! | Inicio</title>
 </head>
 <body>
-    
+    <!-- HEADER -->
     <header class="header">
         <nav class="nav">
             <div class="hero__container">
@@ -34,7 +34,7 @@
                     <a href="#ourCompany" class="nav__link">Nosotros</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#whatWeDo" class="nav__link">Contenedores</a>
+                    <a href="#containers" class="nav__link">Contenedores</a>
                 </li>
                 <li class="nav__item">
                     <a href="#bePart" class="nav__link">Servicios</a>
@@ -48,9 +48,9 @@
             </ul>
     </header>
 
-    <div class="slider__container">
+    <!-- SLIDER-->
+    <div  id="home" class="slider__container">
         <div class="slider" id="slider">
-
             <div class="slider__section">
                 <div class="section__content">
                     <h3 class="slider__subtitle--1">Somos</h3>
@@ -61,7 +61,7 @@
                 <img src="../img/hero1.jpg" alt="{img 1}" class="slider__img">
             </div>
             <div class="slider__section">
-                <div class="section__content--2">
+                <div class="section__content">
                     <h3 class="slider__subtitle--2">Somos</h3>
                     <h2 class="slider__title--2">Vendedores de contenedores</h2>
                     <h3 class="slider__subtitle--a2">Stock en más de 30 puertos.</h3>
@@ -85,76 +85,80 @@
         </div>
     </div>
 
+    <!-- NOSOTROS -->
+    <div class="nosotros">
+   
+    </div>
 
-
-
-
-    <!-- <div class="carrousel">
-        <div class="container">
-            <img src="../img/hero1.jpg" alt="Imagen 1" class="img">
-            <img src="../img/hero2.jpg" alt="Imagen 2" class="img">
-        </div>
-        <ul class="puntos">
-            <li class="punto left activo">&#9664;</li>
-            <li class="punto right">&#9654;</li>
-        </ul>
-    </div> -->
-
-    <!-- <div class="slider">
-        <div class="slider__container container">
-
-            <img src="../assets/left-arrow.svg" id="before" alt="LeftArrow">
-
-            <section class="slider__body slider__body--show" data-id="1">
-
-                <div class="slider__texts">
-                    <h3 class="slider__subtitle">Somos</h3>
-                    <h2 class="slider__title">LÍDERES</h2>
-                    <p class="slider__review">En contenedores en toda latinoamérica.</p>
-                    <button class="slider__btn" id="btn">Lee más</button>
+    <!-- CARDS-->
+    <div class="cards__container"  id="containers">
+        <div class="cards">
+            <div class="card">
+                <h4 class="card__title">CONTENEDORES MARITIMOS</h4>
+                <div class="imgs card__img--1">
+                    <img src="../img/cm1.jpg" alt="" class="card__img">
                 </div>
-
-                <figure class="slider__picture">
-                    <img src="../img/hero1.jpg" alt="hero1" class="slider__img">
-                </figure>
-
-            </section>
-
-            <section class="slider__body" data-id="2">
-
-                <div class="slider__texts">
-                    <h3 class="slider__subtitle">Somos</h3>
-                    <h2 class="slider__title">Vendedores de containers</h2>
-                    <p class="slider__review">Atención personalizada.</p>
-                    <button class="slider__btn" id="btn">Lee más</button>
+                <p class="card__paragraph">Contenedor Marítimo para transporte de carga seca o ideales para usarlos como bodegas.</p>
+                <a href="#" class="card__info">+ Información</a>
+            </div>
+            <div class="card">
+                <h4 class="card__title">CARCASAS REEFER</h4>
+                <div class="imgs">
+                    <img src="../img/cm2.jpg" alt="" class="card__img">
                 </div>
-
-                <figure class="slider__picture">
-                    <img src="../img/hero2.jpg" alt="hero1" class="slider__img">
-                </figure>
-
-            </section>
-
-            <section class="slider__body" data-id="3">
-
-                <div class="slider__texts">
-                    <h3 class="slider__subtitle">Desde Miami al resto de</h3>
-                    <h2 class="slider__title">Latinoamérica</h2>
-                    <p class="slider__review">Stock en más de 30 puertos.</p>
-                    <button class="slider__btn" id="btn">Lee más</button>
+                <p class="card__paragraph">Carcasas de Contenedor Refrigerado NO Operativos, ideales para Proyectos Modulares de construcción habitacional.</p>
+                <a href="#" class="card__info">+ Información</a>
+            </div>
+            <div class="card">
+                <h4 class="card__title">CONTENEDORES REFRIGERADOS</h4>
+                <div class="imgs">
+                    <img src="../img/reefer.jpg" alt="" class="card__img">
                 </div>
-
-                <figure class="slider__picture">
-                    <img src="../img/hero3.jpg" alt="hero1" class="slider__img">
-                </figure>
-
-            </section>
-
-            <img src="../assets/right-arrow.svg" id="after" alt="RightArrow">
+                <p class="card__paragraph">Contenedor Refrigerados 100% Operativos, ideales para cargas que se necesiten preservar en temperaturas constantes.</p>
+                <a href="#" class="card__info">+ Información</a>
+            </div>
 
         </div>
+    </div>
+    
+    <!-- FOOTER-->
+    <footer class="footer">
+        <div class="items">
+            <div class="item1">
+                <h3 class="footer__title">Nuestra Compañía</h3>
+                <p class="footer__paragraph">
+                    Uno de los especialistas más importantes en brindar soluciones de contenedores marítimos desde 2013. Vendemos y alquilamos contenedores marítimos, así como contenedores de almacenamiento en todos los países de América del Norte, Central y del Sur.
+                </p>
+            </div>
+            <div class="item2">
+                <img src="../img/footerRef.png" alt="img4">
+            </div>
+            <div class="item3">
+                <h3 class="footer__title">Nuestros Servicios</h3>
+                <ul>
+                    <li class="services__item">Inicio</li>
+                    <li class="services__item">Nosotros</li>
+                    <li class="services__item">Contenedores</li>
+                    <li class="services__item">Servicios</li>
+                    <li class="services__item">Blog</li>
+                    <li class="services__item">Contacto</li>
+                </ul>
+            </div>
+            <div class="item4">
+                <h3 class="footer__title">Teléfono</h3>
+                <p class="footer__paragraph">+1 (786) 714-9722</p>
+    
+                <h3 class="footer__title">Dirección</h3>
+                <p class="footer__paragraph">848 Brickell Avenue, Suite 950, Miami, FL 33131.</p>
+            </div>
+        </div>
+        <div class="copy">
+            Containers Ya! 2020 | All rights reserved. Con amor, tu marido.
+        </div>
 
-    </div> -->
+    </footer>
+
+
 
     <script src="../js/main.js"></script>
 </body>
