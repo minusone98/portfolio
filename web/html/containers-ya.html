@@ -27,7 +27,7 @@
             </div>
             <i class='bx bx-menu' id="menu__icon"></i>
             <ul class="nav__list">
-                <li class="nav__item">
+                <li class="nav__item" id="item">
                     <a href="#home" class="nav__link">Inicio</a>
                 </li>
                 <li class="nav__item">
@@ -46,10 +46,63 @@
                     <a href="#contact" class="nav__link">Contacto</a>
                 </li>
             </ul>
-        </nav>    
     </header>
-    <div class="slider">
+
+    <div class="slider__container">
+        <div class="slider" id="slider">
+
+            <div class="slider__section">
+                <div class="section__content">
+                    <h3 class="slider__subtitle--1">Somos</h3>
+                    <h2 class="slider__title--1">Líderes</h2>
+                    <h3 class="slider__subtitle--a1">En venta de contenedores en latinoamérica</h3>
+                    <span class="btn__offer btn__offer--1 ">Leer más</span>
+                </div>
+                <img src="../img/hero1.jpg" alt="{img 1}" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <div class="section__content--2">
+                    <h3 class="slider__subtitle--2">Somos</h3>
+                    <h2 class="slider__title--2">Vendedores de contenedores</h2>
+                    <h3 class="slider__subtitle--a2">Stock en más de 30 puertos.</h3>
+                    <span class="btn__offer btn__offer--2">Leer más</span>
+                </div>
+                <img src="../img/hero2.jpg" alt="{img 2}" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <div class="section__content">
+                    <h3 class="slider__subtitle--3">Somos</h3>
+                    <h2 class="slider__title--3">Líderes</h2>
+                    <h3 class="slider__subtitle--a3">En venta de contenedores en latinoamérica</h3>
+                    <span class="btn__offer btn__offer--3">Leer más</span>
+                </div>
+                <img src="../img/hero3.jpg" alt="{img 3}" class="slider__img">
+            </div>
+        </div>
+        <div class="buttons">
+            <span class="slider__btn btn__left" id="btn__left">&#60</span>
+            <span class="slider__btn btn__right" id="btn__right">&#62</span>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- <div class="carrousel">
+        <div class="container">
+            <img src="../img/hero1.jpg" alt="Imagen 1" class="img">
+            <img src="../img/hero2.jpg" alt="Imagen 2" class="img">
+        </div>
+        <ul class="puntos">
+            <li class="punto left activo">&#9664;</li>
+            <li class="punto right">&#9654;</li>
+        </ul>
+    </div> -->
+
+    <!-- <div class="slider">
         <div class="slider__container container">
+
             <img src="../assets/left-arrow.svg" id="before" alt="LeftArrow">
 
             <section class="slider__body slider__body--show" data-id="1">
@@ -96,15 +149,13 @@
                 </figure>
 
             </section>
+
             <img src="../assets/right-arrow.svg" id="after" alt="RightArrow">
 
         </div>
 
-    </div>
+    </div> -->
 
-    
-    <div class="img">
-    </div>
     <script src="../js/main.js"></script>
 </body>
 </html>
