@@ -5,7 +5,149 @@
     --second-bg-color:#112e42;
     --text-color:#ededed;
     --main-color:#00abf0;
+    
+    
+    --azulYa:#18547c;
+    --naranjaYa:#ff9a02;
     /* Tipografía */
     --tipo-principal: 'Montserrat', sans-serif;
     --tipo-secundaria: Verdana;
+}
+body{
+    max-width: 1600px;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+/* HEADER STYLES*/
+.header{
+    color: var(--text-color);
+    background:var(--naranjaYa);
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: sticky;
+    margin: 0 auto;
+    z-index: 1000;
+    box-shadow: 0em .05em .7em black;
+}
+.hero__container{
+    flex: 1;
+    max-width: 18%;
+
+}
+.bx{
+    font-size: 2.5em;
+    display: none;
+}
+.nav{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+.nav__list{
+    flex: 4.5;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 70%;
+}
+.nav__item{
+    padding: .4em .5em;
+    margin: 0 .3em;            
+    flex: 1;
+    hyphens: none;
+    text-align: center;
+    border-radius: 2em;
+    background: var(--azulYa);
+}
+
+.nav__item:hover{
+    cursor: pointer;
+    border-radius: 2em;
+    box-shadow: 0em .1em .7em rgb(248, 37, 0);
+    transform: scale(1.1);
+    transition:ease .2s;
+}
+.hero__container:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease .2s;
+
+}
+
+/* SLIDER STYLES*/
+
+.container{
+    width: 100%;
+    overflow: hidden;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.slider {
+    background-color: #f2f2f2;
+    padding: 2em 0;
+}
+
+.slider__container{
+    display: grid;
+    grid-template-columns: 2em 1fr 2em;
+    align-items: center;
+    gap: 1em;
+
+}
+
+.slider__body{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    pointer-events: none;
+    opacity: 0;
+
+    background: green;
+    grid-template-columns: 1fr max-content;
+    align-items: center;
+    transition: opacity 1.5s;
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.slider__body--show{
+    opacity: 1;
+    pointer-events: unset;
+}
+
+.slider__img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    height:100vh;
+}
+.slider__texts{
+    max-width: 20em;
+    position: absolute;
+    top: 6em;
+    color: var(--blanco);
+}
+.slider__subtitle{
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+}
+
+.slider__review{
+    margin-top: 1em;
+
+    font-weight: 300;
+    font-size: 110%;
+    line-height: 1.7;
+}
+
+.slider__picture{
 }

@@ -15,34 +15,96 @@
     <!--GOOGLE FONTS-->
     <link rel="stylesheet" href="/web/css/reset.css">
     <link rel="stylesheet" href="../css/main-styles.css">
+
     <title>Containers Ya! | Inicio</title>
 </head>
 <body>
     
     <header class="header">
-        <a href="#" class="header__title"><img src="../img/logoo.png" alt="">.</a>
-        <i class='bx bx-menu' id="menu__icon"></i>
         <nav class="nav">
+            <div class="hero__container">
+                <img class="hero" src="../img/logo.png" alt="cyaSvg">
+            </div>
+            <i class='bx bx-menu' id="menu__icon"></i>
             <ul class="nav__list">
                 <li class="nav__item">
                     <a href="#home" class="nav__link">Inicio</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#ourCompany" class="nav__link">Nuestra Compañía</a>
+                    <a href="#ourCompany" class="nav__link">Nosotros</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#whatWeDo" class="nav__link">¿Qué hacemos?</a>
+                    <a href="#whatWeDo" class="nav__link">Contenedores</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#bePart" class="nav__link">Sé parte de Cya!</a>
+                    <a href="#bePart" class="nav__link">Servicios</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#contact" class="nav__link">Contácto</a>
+                    <a href="#contact" class="nav__link">Blog</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contacto</a>
                 </li>
             </ul>
-        </nav>
+        </nav>    
     </header>
+    <div class="slider">
+        <div class="slider__container container">
+            <img src="../assets/left-arrow.svg" id="before" alt="LeftArrow">
+
+            <section class="slider__body slider__body--show" data-id="1">
+
+                <div class="slider__texts">
+                    <h3 class="slider__subtitle">Somos</h3>
+                    <h2 class="slider__title">LÍDERES</h2>
+                    <p class="slider__review">En contenedores en toda latinoamérica.</p>
+                    <button class="slider__btn" id="btn">Lee más</button>
+                </div>
+
+                <figure class="slider__picture">
+                    <img src="../img/hero1.jpg" alt="hero1" class="slider__img">
+                </figure>
+
+            </section>
+
+            <section class="slider__body" data-id="2">
+
+                <div class="slider__texts">
+                    <h3 class="slider__subtitle">Somos</h3>
+                    <h2 class="slider__title">Vendedores de containers</h2>
+                    <p class="slider__review">Atención personalizada.</p>
+                    <button class="slider__btn" id="btn">Lee más</button>
+                </div>
+
+                <figure class="slider__picture">
+                    <img src="../img/hero2.jpg" alt="hero1" class="slider__img">
+                </figure>
+
+            </section>
+
+            <section class="slider__body" data-id="3">
+
+                <div class="slider__texts">
+                    <h3 class="slider__subtitle">Desde Miami al resto de</h3>
+                    <h2 class="slider__title">Latinoamérica</h2>
+                    <p class="slider__review">Stock en más de 30 puertos.</p>
+                    <button class="slider__btn" id="btn">Lee más</button>
+                </div>
+
+                <figure class="slider__picture">
+                    <img src="../img/hero3.jpg" alt="hero1" class="slider__img">
+                </figure>
+
+            </section>
+            <img src="../assets/right-arrow.svg" id="after" alt="RightArrow">
+
+        </div>
+
+    </div>
+
     
+    <div class="img">
+    </div>
     <script src="../js/main.js"></script>
 </body>
 </html>
