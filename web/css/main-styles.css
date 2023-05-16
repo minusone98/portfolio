@@ -454,9 +454,6 @@ body{
     color: var(--blanco);
     margin: 0 auto;
 }
-.inputs{
-
-}
 
 .textarea{
     margin: 1em;
@@ -565,9 +562,6 @@ input:focus~.barra::before{
     flex-flow: column nowrap;
 }
 
-.item__form--mensaje label {
-
-}
 .form__opc{
     color: var(--blanco);
     background: var(--second-bg-color);
